@@ -77,6 +77,7 @@ html {
   
   img {
     border: 0;
+    border-radius: 15px;
   }
   
   svg:not(:root) {
@@ -2217,6 +2218,8 @@ html {
     transition: all .2s;
     display: flex;
     position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
   }
   
   .btn:hover {
@@ -2489,6 +2492,7 @@ html {
     height: 32px;
     margin-bottom: 2px;
     margin-right: 8px;
+    border-radius: 0px;
   }
   
   .hero-img {
@@ -2877,6 +2881,7 @@ html {
   
   #w-node-fabf3877-6b8a-7cdf-4bbe-193b40b47990-533ebd8a, #w-node-_18292ef6-cdc5-bef8-dc50-6c465184a5a9-533ebd8a {
     grid-area: span 1 / span 1 / span 1 / span 1;
+    border-radius: 15px;
   }
   
   @font-face {
@@ -2893,3 +2898,39 @@ html {
     font-style: normal;
     font-display: swap;
   }
+
+  .work-img {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+
+  .work-img:hover {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+
+  .w-inline-block {
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+
+  .w-inline-block:hover {
+    margin-left: 5px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+  
