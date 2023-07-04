@@ -13524,7 +13524,7 @@
   function checkPassword() {
     var ps = document.getElementById("password").value;
     if (ps === "!@#aks$009*123") {
-      window.location.href = "./Casestudy.html";
+      window.location.href = "./Assets/CaseStudy.pdf";
     } else {
       alert("Incorrect password. Please try again.");
     }
