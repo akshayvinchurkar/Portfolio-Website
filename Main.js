@@ -13520,6 +13520,16 @@
     require_webflow_forms();
     require_webflow_navbar();
   })();
+
+  function checkPassword() {
+    var ps = document.getElementById("password").value;
+    if (ps === "!@#aks$009*123") {
+      window.location.href = "./Casestudy.html";
+    } else {
+      alert("Incorrect password. Please try again.");
+    }
+  }
+
   /*!
    * tram.js v0.8.2-global
    * Cross-browser CSS3 transitions in JavaScript
