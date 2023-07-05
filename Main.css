@@ -2172,8 +2172,8 @@ html {
   }
   
   .section {
-    padding-top: 9vh;
-    padding-bottom: 9vh;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
     position: relative;
   }
   
@@ -2946,4 +2946,17 @@ html {
     flex-flow: column;
     align-items: left;
     justify-content: center;
+  }
+
+  .workheader {
+    padding-bottom: 0px;
+    padding-top: 150px;
+  }
+
+  .work {
+    padding-top: 10px;
+  }
+
+  .mywork {
+    font-weight: 600;
   }
