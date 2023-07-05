@@ -77,7 +77,7 @@ html {
   
   img {
     border: 0;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   
   svg:not(:root) {
@@ -2488,8 +2488,8 @@ html {
   }
   
   .logo-icon {
-    width: 32px;
-    height: 32px;
+    width: 60px;
+    height: auto;
     margin-bottom: 2px;
     margin-right: 8px;
     border-radius: 0px;
@@ -2634,7 +2634,7 @@ html {
   
   @media screen and (min-width: 1280px) {
     .row.row-split-content {
-      grid-column-gap: 96px;
+      grid-column-gap: 70px;
     }
   }
   
@@ -2934,3 +2934,16 @@ html {
     -o-transition: all 0.2s ease-in-out;
   }
   
+  .workblock {
+    Border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    align-items: left;
+    justify-content: center;
+  }
