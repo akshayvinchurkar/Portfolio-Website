@@ -2541,7 +2541,7 @@ html {
   
   .preloader {
     z-index: 9999;
-    background-color: #f0e6e6;
+    background-color: #ffffff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2935,7 +2935,7 @@ html {
   }
   
   .workblock {
-    Border: 1px solid #ffffff;
+    Border: 1px solid #f6f6f6;
     border-radius: 15px;
     padding: 20px;
   }
@@ -2951,12 +2951,32 @@ html {
   .workheader {
     padding-bottom: 0px;
     padding-top: 150px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .work {
     padding-top: 10px;
   }
 
-  .mywork {
+  .mywork, .resourcehead {
     font-weight: 600;
+  }
+
+  .mywork {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .resourceheader {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .resourcehead {
+    margin-bottom: 10px;
+  }
+
+  .resourceheader p {
+    margin-bottom: 0px;
   }
