@@ -2986,9 +2986,13 @@ html {
   }
 
   .reviews .review .resourcehead {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .glide__slide img {
     border: 1px solid #f6f6f6;
+  }
+
+  .linkedin {
+    padding-left: 10px;
   }
