@@ -46,6 +46,9 @@
         type="text/javascript">window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XRCP1F7LN3', { 'anonymize_ip': false });</script>
     <!-- font smoothing -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" integrity="sha512-tYKqO78H3mRRCHa75fms1gBvGlANz0JxjN6fVrMBvWL+vOOy200npwJ69OBl9XEsTu3yVUvZNrdWFIIrIf8FLg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js" integrity="sha512-2sI5N95oT62ughlApCe/8zL9bQAXKsPPtZZI2KE3dznuZ8HpE2gTMHYzyVN7OoSPJCM1k9ZkhcCo3FvOirIr2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <style>
         body {
             text-rendering: optimizeLegibility;
@@ -322,6 +325,47 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="section reviews">
+                <div class="container">
+                    <div class="review">
+                        <h5 class="resourcehead">
+                            Mentorship Reviews
+                        </h5>
+                        <div class="glide multi1">
+                            <div class="glide__track" data-glide-el="track">
+                              <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review1.png" alt="review1">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review2.png" alt="review2">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review3.png" alt="review3">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review4.png" alt="review4">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review5.png" alt="review5">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review6.png" alt="review6">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review7.png" alt="review7">
+                                </li>
+                                <li class="glide__slide">
+                                    <img src="Assets/reviews/Review8.png" alt="review8">
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section resourceheader">
                 <div class="container">
                     <div class="content">
@@ -451,6 +495,14 @@
         $('.menu-button').on('click', function () {
             $('body').toggleClass('no-scroll');
         });
+
+        var glideMulti1 = new Glide('.multi1', {
+            type: 'carousel',
+            autoplay: 4000,
+            perView: 3
+        });
+
+        glideMulti1.mount();
 
     </script>
 </body>

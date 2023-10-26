@@ -2219,7 +2219,6 @@ html {
     display: flex;
     position: relative;
     margin-left: 0px;
-    padding-left: 0px;
   }
   
   .btn:hover {
@@ -2979,4 +2978,16 @@ html {
 
   .resourceheader p {
     margin-bottom: 0px;
+  }
+
+  .reviews {
+    margin-top: 60px;
+  }
+
+  .reviews .review .resourcehead {
+    margin-bottom: 30px;
+  }
+
+  .glide__slide img {
+    border: 1px solid #dfdfdf;
   }
