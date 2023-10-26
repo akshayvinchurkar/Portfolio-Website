@@ -2219,6 +2219,7 @@ html {
     display: flex;
     position: relative;
     margin-left: 0px;
+    padding-left: 0px;
   }
   
   .btn:hover {
@@ -2989,5 +2990,5 @@ html {
   }
 
   .glide__slide img {
-    border: 1px solid #dfdfdf;
+    border: 1px solid #f6f6f6;
   }
