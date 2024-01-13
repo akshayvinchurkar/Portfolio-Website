@@ -2996,3 +2996,17 @@ html {
   .linkedin {
     padding-left: 10px;
   }
+
+.contactBtn {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
+}
+
+.contactBtn:hover {
+  background-color: #D7C8C1;
+  transition: all 0.5s ease-out;
+}
